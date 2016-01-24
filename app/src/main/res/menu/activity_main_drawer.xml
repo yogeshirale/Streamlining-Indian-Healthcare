@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/nav_home"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/nav_details"
+            android:title="PERSONEL DETAILS" />
+        <item
+            android:id="@+id/nav_maps"
+            android:title="EMERGENCY" />
+        <item
+            android:id="@+id/nav_apointment"
+            android:title="APPOINTMENT" />
+        <item
+            android:id="@+id/nav_review"
+            android:title="REVIEW" />
+        <item
+            android:id="@+id/nav_donate"
+            android:title="DONATION" />
+    </group>
+
+    <group >
+        <item
+            android:id="@+id/nav_exit"
+            android:title="LOG OUT" />
+    </group>
+
+</menu>
+    <!--      android:icon="@drawable/ic_menu_manage"-->

@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="510dp"
+    android:layout_gravity="bottom"
+    android:padding="5dp"
+    android:background="#ffffff"
+    tools:context="com.example.yogesh.life.Details_Fragment"
+    android:id="@+id/EDIT">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="EDIT"
+        android:textAlignment="center"
+        android:id="@+id/button"
+        android:gravity="center"
+        android:background="#74577b" />
+
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <!--            Name Name Naem                                                         -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name"
+                android:id="@+id/Name"
+                android:padding="6dp"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:singleLine="true"
+                android:id="@+id/editText1"
+                android:layout_gravity="center_vertical|right" />
+            <!--    DOB DOB DOB                                                                -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Date of Birth"
+                android:id="@+id/DOB"
+                android:padding="6dp"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/editText3"
+                android:layout_gravity="center_vertical|right" />
+            <!--                                                                    -->
+            <!--               PAN PAN PAN                                                     -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PAN ID"
+                android:id="@+id/PAN"
+                android:padding="6dp"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/editText4"
+                android:layout_gravity="center_vertical|right" />
+
+            <!--                                 BLOOD BLOOD                               -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Blood group"
+                android:id="@+id/BLOOD"
+                android:padding="8dp"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/editText5"
+                android:layout_gravity="center_vertical|right" />
+
+            <!--                                     ADDRESS                              -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Adhaar ID"
+                android:id="@+id/ADH"
+                android:padding="8dp"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/ad"
+                android:layout_gravity="center_vertical|right" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Address"
+                android:id="@+id/ADDRESS"
+                android:padding="6dp"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/editT6"
+                android:layout_gravity="center_vertical|right" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit"
+                android:layout_gravity="center_vertical|right" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTex"
+                android:layout_gravity="center_vertical|right" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

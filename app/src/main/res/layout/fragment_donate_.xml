@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    tools:context="com.example.yogesh.life.Donate_Fragment"
+    xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        android:gravity="top"
+        android:id="@+id/srcoll"
+        android:layout_gravity="top"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You are alive right!! "
+                android:textAlignment="center"
+                android:id="@+id/OR"/>
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donate Blood"
+                android:id="@+id/Donate1"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Require Blood"
+                android:id="@+id/Require1"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SURE"
+                android:id="@+id/sure"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your way after life "
+                android:textAlignment="center"
+                android:id="@+id/orw"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart"
+                android:id="@+id/checkBox"
+                android:checked="false" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Intestine"
+                android:id="@+id/checkBox2"
+                android:checked="false"
+                android:layout_below="@+id/checkBox"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Intestine"
+                android:id="@+id/checkBox3"
+                android:checked="false"
+                android:layout_below="@+id/checkBox2"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Kidney"
+                android:id="@+id/checkBox4"
+                android:checked="false"
+                android:layout_below="@+id/checkBox3"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Liver"
+                android:id="@+id/checkBox5"
+                android:checked="false"
+                android:layout_below="@+id/checkBox4"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="Lungs"
+                android:id="@+id/checkBox6"
+                android:checked="false"
+                android:layout_below="@+id/checkBox5"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Pancreas"
+                android:id="@+id/checkBox7"
+                android:checked="false"
+                android:layout_below="@+id/checkBox6"
+                android:layout_alignParentStart="true" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bone"
+                android:id="@+id/checkBox1"
+                android:layout_below="@+id/checkBox7"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Cartilage"
+                android:id="@+id/checkBox21"
+                android:checked="false"
+                android:layout_below="@+id/checkBox1"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Cornea"
+                android:id="@+id/checkBox31"
+                android:checked="false"
+                android:layout_below="@+id/checkBox21"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Fascia"
+                android:id="@+id/checkBox41"
+                android:checked="false"
+                android:layout_below="@+id/checkBox31"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Heart Valves"
+                android:id="@+id/checkBox51"
+                android:checked="false"
+                android:layout_below="@+id/checkBox41"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Ligaments"
+                android:id="@+id/checkBox61"
+                android:checked="false"
+                android:layout_below="@+id/checkBox51"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Pericardium"
+                android:id="@+id/checkBox71"
+                android:checked="false"
+                android:layout_below="@+id/checkBox61"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Skin"
+                android:id="@+id/checkBox81"
+                android:checked="false"
+                android:layout_below="@+id/checkBox71"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Tendons"
+                android:id="@+id/checkBox91"
+                android:checked="false"
+                android:layout_below="@+id/checkBox81"
+                android:layout_alignParentStart="true" />
+            <CheckBox
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:text="Veins"
+                android:id="@+id/checkBox101"
+                android:checked="false"
+                android:layout_below="@+id/checkBox91"
+                android:layout_alignParentStart="true" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/srcoll"
+            android:gravity="bottom">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/ok"
+                android:layout_gravity="right" />
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

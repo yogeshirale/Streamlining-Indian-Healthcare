@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="510dp"
+    android:layout_gravity="bottom"
+    tools:context=".Appointment_Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Weight"
+            android:id="@+id/textView7"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:id="@+id/editweight"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Height"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/editweight"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editheight"
+            android:singleLine="true"
+            android:layout_below="@+id/textView8"
+            android:layout_alignStart="@+id/textView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Insulin"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/editheight"
+            android:layout_alignStart="@+id/editheight" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editinsulin"
+            android:layout_alignParentEnd="true"
+            android:singleLine="true"
+            android:layout_below="@+id/textView9"
+            android:layout_alignLeft="@+id/editheight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Blood Pressure"
+            android:id="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editinsulin"
+            android:layout_alignLeft="@+id/editheight" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editbp"
+            android:singleLine="true"
+            android:layout_below="@+id/textView10"
+            android:layout_alignLeft="@+id/editheight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Temperature"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/editbp"
+            android:layout_alignStart="@+id/editbp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittemp"
+            android:layout_alignParentEnd="true"
+            android:singleLine="true"
+            android:layout_below="@+id/textView11"
+            android:layout_alignLeft="@+id/editbp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Symptoms"
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edittemp"
+            android:layout_alignLeft="@+id/editbp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editsymp"
+            android:singleLine="true"
+            android:layout_below="@+id/textView12"
+            android:layout_alignLeft="@+id/editbp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Medical Status"
+            android:id="@+id/updstatus"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#74577b"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

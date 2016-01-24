@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="510dp"
+    android:layout_gravity="bottom"
+    tools:context="com.example.yogesh.life.Home_Fragment"
+    android:focusable="true"
+    android:background="#a7a1a1"
+    android:padding="20dp">
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Checked"
+        android:id="@+id/checkBox8"
+        android:checked="false"
+        android:layout_below="@+id/updbutton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE  STATUS"
+        android:id="@+id/updbutton"
+        android:background="#777777"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/ent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/msg"
+        android:hint="Message "
+        android:layout_above="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:background="#ffffff" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="ENTER"
+        android:id="@+id/ent"
+        android:shape="rectangle"
+        android:layout_alignBottom="@+id/msg"
+        android:layout_alignEnd="@+id/msg"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/textView3"
+        android:background="#dad7f6"
+        android:layout_below="@+id/checkBox8"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL MY DOCTOR"
+        android:id="@+id/button4"
+        android:background="#777777"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <!-- <SearchView
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/searchView"
+         android:layout_alignTop="@+id/searchView"
+         android:layout_alignParentStart="true"
+         android:background="#ffffff" />-->
+
+</RelativeLayout>
+
