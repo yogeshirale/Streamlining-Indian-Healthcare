@@ -1,0 +1,36 @@
+In todays world, everyone are busy with their activities. They are not paying any
+attention to their health. In country like India, the poorer and also sometimes the middle
+person, does not get the medical facilites so easily. We through the app, are assigning a
+doctor , to every individual who registers himself/herself on app.
+When user registers through the app, he will be assigned a doctors on the basis of his
+location using the GPS, or he may be made to choose from some. He gets the provided
+with doctors information like doctors name, mobile name, email id of the doctor. The user
+will be provided with the facilty of calling a doctor with littlle bit of charges.
+We are developing an app, which will show the progress bar of ones individual health.
+The app contains different sections -
+1. First will be the home page, which will contains the heatlh status of the individual. The
+health status will be updated regularly. The status will be update on the bases of the body
+mass index, etc.This details should be entered by the user manually.
+2. Second, it will contain information of the user, like Name, Blood group, PAN ID, Address.
+3.Third is the Google map. It contains options of calling directly or searching. If a person
+need an emergency, he just needs to press the call button and he will be directed to the
+doctor or may be ambulance, etc depending upon the problem.
+4. Fouth, is donation. This section contains a list of body parts that can be donated. It
+contains the checkboxes of Organs like Liver, lungs, etc and tissus. The individual which
+want to donate his parts after life can check the boxes. It will highlight information of each
+part, how important it is, and how important it would be, when you donate it, after your life.
+This donation information will be also be maintained with the doctor and administation. The
+administration will provide with the benefits like money for donating the parts.
+There will also be a news/blog feed section, for informing the users of the new medical
+problems or diseases generating and solution for it.
+Now , we would be having website. It will contain Doctors and administration login. For
+doctors, when he/she will login in, his account will contain the list of patients registered
+with him and their details. It will contain the information the user entered in the app, and
+also the user wanted to donate the parts.
+The administration login, will be login from the governement bodies. When the
+governement body login, it will contain list of doctors registered with them. It will show the
+information of doctors and the number of patients registered with them.
+The doctors and also the hospitals would be rated with according to the cases and the no.
+Of registered patients with them.
+Basically the whole idea of the app is to maintain the health status of the indivdual and
+bring more health
